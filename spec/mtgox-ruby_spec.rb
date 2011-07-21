@@ -7,7 +7,7 @@ describe MtgoxClient do
 		@mtgox_client = MtgoxClient.new
 	end
 
-	it "should receive recent trades data as MtgoxOrder objects" do
+	it "should receive recent trades as MtgoxOrder objects" do
 		recent_trades = @mtgox_client.recent_trades
 		recent_trades.should be_a(Array)
 		recent_trades.length.should > 0
