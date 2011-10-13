@@ -12,8 +12,23 @@ or
 
 = Usage
 
-To get the recent trades:
+Get recent trades:
+
   @mtgox_client = MtgoxClient.new	
-  trades = @mtgox_client.recent_trades
 
+  most_recent_trade = @mtgox_client.recent_trades.first
 
+  most_recent_trade.buy?
+    => true 
+
+  most_recent_trade.sell?
+    => false
+
+  most_recent_trade.amount
+    => 42
+
+  most_recent_trade.price
+    => 5,23
+
+  most_recent_trade.order_id
+    => 123123123123
