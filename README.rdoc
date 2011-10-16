@@ -1,8 +1,8 @@
-{<img src="https://secure.travis-ci.org/paulasmuth/mtgox-ruby.png" />}[http://travis-ci.org/paulasmuth/mtgox-ruby]
-
 = mtgox-ruby
 
 ruby api client for the mtgox.com bitcoin exchange
+
+{<img src="https://secure.travis-ci.org/paulasmuth/mtgox-ruby.png" />}[http://travis-ci.org/paulasmuth/mtgox-ruby]
 
 == Installation
 
