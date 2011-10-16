@@ -1,8 +1,10 @@
+{<img src="https://secure.travis-ci.org/paulasmuth/mtgox-ruby.png" />}[http://travis-ci.org/paulasmuth/mtgox-ruby]
+
 = mtgox-ruby
 
 ruby api client for the mtgox.com bitcoin exchange
 
-= Installation
+== Installation
 
 In your Gemfile
   gem "mtgox-ruby", :git => "git://github.com/paulasmuth/mtgox-ruby.git"
@@ -10,7 +12,7 @@ In your Gemfile
 or
   gem install git://github.com/paulasmuth/mtgox-ruby.git
 
-= Usage
+== Usage
 
 Get recent trades:
 
