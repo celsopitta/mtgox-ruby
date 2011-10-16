@@ -7,7 +7,7 @@ require 'mtgox_order'
   
 class MtgoxClient
 
-  MTGOX_API_URL = "http://mtgox.com/code/data/"
+  MTGOX_API_URL = "https://mtgox.com/code/data/"
   
   attr_accessor :api_url
 
