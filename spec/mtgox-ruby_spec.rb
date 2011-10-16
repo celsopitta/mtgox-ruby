@@ -1,9 +1,14 @@
 $: << File.join(File.dirname(__FILE__), '..', 'lib')
 require 'mtgox-ruby'
+require 'fakeweb'
+
+FakeWeb.register_uri(:any, 'https://mtgox.com/code/data/getTrades.php', 
+  :body => ::File.open(::File.expand_path('../get_trades.json', __FILE__)).read
+)
 
 describe MtgoxClient do
 
-	before :each do
+	before :each do	
 		@mtgox_client = MtgoxClient.new
 	end
 

@@ -7,4 +7,5 @@ group :development do
   gem "jeweler", "~> 1.5.2"
   gem "rspec", "> 1.2.3"
   gem "rcov", ">= 0"
+  gem 'fakeweb', ">= 0"
 end
